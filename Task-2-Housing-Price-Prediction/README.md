@@ -196,7 +196,6 @@ Through this project, I gained practical experience in:
 This project provided practical experience in developing a complete Machine Learning regression pipeline for housing price prediction.
 
 It helped demonstrate the importance of data preprocessing, feature engineering, regularization techniques and hyperparameter tuning.
-
 The comparison of OLS, Ridge and Lasso Regression helped in understanding how different regression algorithms perform on the housing dataset.
 
 ## 15. Project Information
