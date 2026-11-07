@@ -40,8 +40,8 @@ The dataset contains 20,640 records and 10 original columns.
 
 | Feature | Description |
 |---|---|
-| longitude | Longitude of the geographical location |
-| latitude | Latitude of the geographical location |
+| longitude | Longitude of geographical location |
+| latitude | Latitude of geographical location |
 | housing_median_age | Median age of houses |
 | total_rooms | Total number of rooms |
 | total_bedrooms | Total number of bedrooms |
@@ -65,20 +65,19 @@ The dataset contains 207 missing values in `total_bedrooms`. These missing value
 
 ## 5. Machine Learning Algorithms
 
-Three regression algorithms are implemented:
-
 ### 1. Ordinary Least Squares (OLS) Linear Regression
+
 A basic linear regression model used as a baseline for predicting housing prices.
 
 ### 2. Ridge Regression
+
 A regularized regression technique that uses L2 regularization to reduce the effect of large model coefficients.
 
 ### 3. Lasso Regression
+
 A regularized regression technique that uses L1 regularization and can reduce some feature coefficients to zero.
 
 ## 6. Project Workflow
-
-The project follows these steps:
 
 1. Dataset loading and exploration
 2. Data inspection and statistical analysis
@@ -99,14 +98,14 @@ The project follows these steps:
 
 ## 7. Feature Engineering
 
-The following additional features are created to improve the model:
+The following additional features are created:
 
 - `rooms_per_household`
 - `bedrooms_per_room`
 - `population_per_household`
 - `income_age_interaction`
 
-These features are created using the existing numerical columns in the dataset.
+These features are created using existing numerical columns in the dataset.
 
 ## 8. Data Preprocessing
 
@@ -139,13 +138,11 @@ The model with the lowest RMSE is considered the best-performing model among the
 
 The performance of OLS, Ridge and Lasso Regression is compared using RMSE, MAE and R² Score.
 
-The actual evaluation values and best hyperparameters are available in the Jupyter Notebook.
+The best-performing model is selected based on the lowest RMSE.
 
-*Note: The final numerical results are not included here because they should be taken directly from the completed notebook.*
+Actual evaluation values and best hyperparameters are available in the Jupyter Notebook.
 
 ## 12. Data Visualizations
-
-The following visualizations are included in this project.
 
 ### 1. Correlation Heatmap
 
@@ -196,6 +193,7 @@ Through this project, I gained practical experience in:
 This project provided practical experience in developing a complete Machine Learning regression pipeline for housing price prediction.
 
 It helped demonstrate the importance of data preprocessing, feature engineering, regularization techniques and hyperparameter tuning.
+
 The comparison of OLS, Ridge and Lasso Regression helped in understanding how different regression algorithms perform on the housing dataset.
 
 ## 15. Project Information
